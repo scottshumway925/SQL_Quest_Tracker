@@ -1,0 +1,21 @@
+# Ignore everything
+*
+
+# But not these:
+!.gitignore
+!*.cs
+
+# Allow folder structure so .cs files inside folders aren't blocked
+!*/
+
+# Ignore common Visual Studio / .NET build outputs
+bin/
+obj/
+*.user
+*.suo
+*.log
+*.cache
+*.db
+
+# Ignore VSCode settings
+.vscode/
