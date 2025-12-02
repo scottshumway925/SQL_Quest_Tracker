@@ -4,6 +4,7 @@
 # But not these:
 !.gitignore
 !*.cs
+!*.sql
 
 # Allow folder structure so .cs files inside folders aren't blocked
 !*/
